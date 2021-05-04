@@ -34,7 +34,7 @@ function App() {
       <SideMenu></SideMenu>
       <div className={classes.appMain}>
         <Header></Header>
-        <PageHeader title="Page Header" subTitle="Page Sub Title" icon={<PeopleOutlineIcon/>}/>
+        <PageHeader title="Page Header" subTitle="Page Sub Title" icon={<PeopleOutlineIcon fontSize="large"/>}/>
       </div>
       <CssBaseline/>
     </ThemeProvider>

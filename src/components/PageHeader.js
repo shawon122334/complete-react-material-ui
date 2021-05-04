@@ -1,9 +1,10 @@
 import { Card, makeStyles, Paper, Typography } from '@material-ui/core'
 import React from 'react'
 
-const useStyle = makeStyles (theme=>({
+    const useStyle = makeStyles (theme=>({
     root:{
-        backgroundColor:'fdfdff'
+        backgroundColor:'fdfdff',
+        
     },
     pageHeader:{
         padding: theme.spacing(4),
