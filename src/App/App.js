@@ -18,7 +18,24 @@ const theme = createMuiTheme({
     background:{
       default: "#f4f5fd"
     }
-  }
+  },
+  shape:{
+      borderRadius:'12px'
+  },
+  // overriding components style 
+  overrides:{
+    MuiAppBar:{
+      root:{
+        transform: 'translateZ(0)'
+      }
+    }
+  },
+  props:{
+    MuiIconButton:{
+      disableRipple:true
+    }
+  }  
+  //thats how we do theme customization , search component and add to app.js for default
 });
 const useStyle = makeStyles({
   appMain:{
